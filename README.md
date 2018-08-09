@@ -1,16 +1,23 @@
+# Reason Starter
 
+This project is very similar to a project created by running `bsb -init reason-starter`, with the exception that I've slightly modified the bsconfig.json and package.json files to my liking.
 
-# Build
+# Build & Watch
+
+These scripts compile ReasonML code to JavaScript.
+
 ```
 npm run build
 ```
-
-# Watch
 
 ```
 npm run watch
 ```
 
+# Execute
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically# reason-starter
+This executes the compiled JavaScript. That is, it runs `node lib/js/src/index.js`
+
+```
+npm start
+```
