@@ -1,0 +1,22 @@
+{
+  "name": "reason-starter",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node lib/js/src/index.js",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript",
+    "reasonml",
+    "javascript",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.3"
+  }
+}
